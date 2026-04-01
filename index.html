@@ -2,30 +2,188 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <title>hery's AWESOME WEBSITE!!!!</title>
+    <style>
+        /* container */
+        html {
+            height: 100%;
+        }
+
+        body {
+            /* background-color: #000020; */
+            background-image: url("https://wallpapers.com/images/hd/windows-95-blue-screen-58bmxcosuth1mdxq.webp");
+            color: lime;
+            font-family: cursive;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+            /* max-width: 800px; */
+        }
+
+        .site {
+            flex-grow: 1;
+        }
+
+        /* scrollihghn thing */
+        marquee {
+            color:rgb(255, 255, 255); 
+            background: repeating-linear-gradient(45deg, yellow 0px, yellow 20px, black 20px, black 40px);
+            font-size:1.1em;
+            font-weight:bold;
+            text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+        }
+
+        /* site */
+
+        .site {
+            display: flex;
+            margin: 40px 200px;
+            gap: 20px;
+        }
+
+        /* nav */
+        nav {
+            background-image: url("https://xixxii.neocities.org/images/bgs/geocities75.jpg");
+            color: black;
+            padding: 20px 20px;
+            border: 3px ridge pink;
+        }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 12px;
+            text-decoration: underline overline;
+        }
+
+        nav a:hover {
+            color: blue;
+            background: cyan;
+        }
+
+        .title {
+            border: 4px dashed hotpink;
+            background: black;
+            padding: 10px;
+            margin-top: 10px;
+            text-align: center;
+            background-image: url("https://xixxii.neocities.org/images/bgs/geocities88.jpg");
+        }
+
+        .title h1 {
+            color: yellow;
+            font-size: 2em;
+            text-shadow: 3px 3px red;
+            margin: 4px;
+        }
+
+        .title span {
+            color: cyan;
+            font-size: 1.2em;
+        }
+
+        .bio {
+            background: #003300;
+            border: 2px solid rgb(104, 245, 104);
+            padding: 8px;
+            margin-top: 10px;
+        }
+
+        .bio h2 {
+            color: lime;
+            font-size: 1.4em;
+        }
+
+        .sitemap {
+            background-image: url("https://xixxii.neocities.org/images/bgs/geocities114.gif");
+            border: 3px double cyan;
+            padding: 8px;
+            margin-top: 10px;
+        }
+
+        .sitemap h2 {
+            color: white;
+            font-size: 1.3em;
+            text-transform: uppercase;
+        }
+
+        .sitemap a {
+            color: yellow;
+            display: block;
+            margin: 4px 0;
+        }
+
+        .counter {
+            margin-top: 14px;
+            text-align: center;
+            color: lime;
+            font-size: 0.85em;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .blink {
+            animation: blink 1s step-start infinite;
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="/my-awesome-website">home</a>
-        <a href="/my-awesome-website/bio.html">bio</a>
-        <a href="/my-awesome-website/payment.html">payment</a>
-    </nav>
 
-    <div class="title">
-        <h1>This is my super awesome sight that i made in</h1>
-        <br />
-        <span>uhhhm like</span>
-        <br />
-        <h1>html and css and stuff!</h1>
+    <marquee behavior="scroll" direction="left">
+        WELCOME TO MY SITE ! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+        WELCOME TO MY SITE ! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+        WELCOME TO MY SITE ! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+        WELCOME TO MY SITE ! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+    </marquee>
+
+    <div class="site">
+        <nav>
+            Navigation
+            <ul>
+                <li><a href="/my-awesome-website">[ home ]</a></li>
+                <li><a href="/my-awesome-website/bio.html">[ bio ]</a></li>
+                <li><a href="/my-awesome-website/payment.html">[ payment ]</a></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <div class="title">
+                <h1>This is my super awesome sight that i made in</h1>
+                <span>uhhhm like</span>
+                <h1>html and css and stuff!</h1>
+                <p class="blink">*** UNDER CONSTRUCTION ***</p>
+            </div>
+
+            <div class="bio">
+                <h2>my name is hnery and i like this class :)</h2>
+            </div>
+
+            <div class="sitemap">
+                <h2>my awesome sightmap that maps TEH WHOLE SIGHT</h2>
+                <a href="/my-awesome-website">--&gt; home (ur here!!)</a>
+                <a href="/my-awesome-website/bio.html">--&gt; bio page</a>
+                <a href="/my-awesome-website/payment.html">--&gt; payment</a>
+            </div>
+
+            <div class="counter">
+                <p>u r visitor number: <b style="color:yellow; ">10,000,000</b></p>
+                <p style="font-size:0.75em; color: #aaa;">last updated: march 2026 probably</p>
+            </div>
+        </div>
     </div>
 
-    <div class="bio">
-        <h2>my name is hery and i like this class</h2>
-    </div>
+    <marquee behavior="scroll" direction="left">
+        WELCOME TO MY SITE !!! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+        WELCOME TO MY SITE !!! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+        WELCOME TO MY SITE !!! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+        WELCOME TO MY SITE !!! &nbsp;&nbsp;&nbsp; DO NOT STEAL MY HTML &nbsp;&nbsp;&nbsp;
+    </marquee>
 
-    <div>
-        <h2>my awesome sightmap that maps TEH WHOLE SIGHT</h2>
-
-    </div>
 </body>
 </html>
